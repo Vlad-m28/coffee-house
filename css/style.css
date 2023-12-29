@@ -1180,6 +1180,7 @@ body span {
 }
 
 @media (max-width: 1439px) {
+
     .coffee__slider-content {
         width: 1152px;
         flex-shrink: unset;
@@ -1187,7 +1188,7 @@ body span {
     }
 
     .coffee__slider-content:nth-child(2) {
-        display: none;
+        display: inline-block;
     }
 
     .coffee__slider-content:nth-child(3) {
@@ -1720,7 +1721,10 @@ body span {
         .about__grid-right .bottom-img:hover img {
             scale: 2;
         }
+    }
 
+    .menu__grid-card .price {
+        top: 185px;
     }
 
     .app__content {

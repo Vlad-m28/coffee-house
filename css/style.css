@@ -1188,7 +1188,7 @@ body span {
     }
 
     .coffee__slider-content:nth-child(2) {
-        display: inline-block;
+        display: none;
     }
 
     .coffee__slider-content:nth-child(3) {

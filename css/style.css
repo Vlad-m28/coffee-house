@@ -1179,6 +1179,22 @@ body span {
 
 }
 
+@media (max-width: 1439px) {
+    .coffee__slider-content {
+        width: 1152px;
+        flex-shrink: unset;
+        margin: 0 auto;
+    }
+
+    .coffee__slider-content:nth-child(2) {
+        display: none;
+    }
+
+    .coffee__slider-content:nth-child(3) {
+        display: none;
+    }
+}
+
 @media (max-width: 1200px) {
 
     .about__grid {
@@ -1268,7 +1284,7 @@ body span {
         line-height: 40px;
         gap: 60px;
         transform: translateX(100%);
-        transition: transform .4s ease-in-out;
+        transition: transform .3s ease-in-out;
         overflow: auto;
     }
 

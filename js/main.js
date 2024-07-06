@@ -61,29 +61,29 @@ lines.forEach((line, index) => {
     })
 })
 
-let timer = setInterval(() => {
-    rightSlide()
-}, 3000)
+// let timer = setInterval(() => {
+//     rightSlide()
+// }, 3000)
 
-sliderCoffee.onmouseover = function() {
-    clearInterval(timer);
-}
+// sliderCoffee.onmouseover = function() {
+//     clearInterval(timer);
+// }
 
-sliderBottom.onmouseover = function() {
-    clearInterval(timer);
-}
+// sliderBottom.onmouseover = function() {
+//     clearInterval(timer);
+// }
 
-sliderCoffee.onmouseout = function() {
-    timer = setInterval(() => {
-    rightSlide()
-}, 3000);
-}
+// sliderCoffee.onmouseout = function() {
+//     timer = setInterval(() => {
+//     rightSlide()
+// }, 3000);
+// }
 
-sliderBottom.onmouseout = function() {
-    timer = setInterval(() => {
-    rightSlide()
-}, 3000);
-}
+// sliderBottom.onmouseout = function() {
+//     timer = setInterval(() => {
+//     rightSlide()
+// }, 3000);
+// }
 
 
 // Menu Icon

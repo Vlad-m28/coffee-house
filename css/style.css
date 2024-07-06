@@ -1176,6 +1176,14 @@ body span {
         justify-content: center;
         align-items: center;
     }
+
+    .coffee__slider-content {
+        flex-shrink: 1;
+    }
+
+    .coffee__slider-content:nth-child(n+2) {
+        display: none;
+    }
 }
 
 @media (max-width: 1439px) {
@@ -1661,6 +1669,11 @@ body span {
             scale: 1.9;
         }
     }
+
+    .offer__title-tab {
+        flex-wrap: wrap;
+    }
+
 
 }
 
